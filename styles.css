@@ -1,0 +1,32 @@
+styles.css
+ {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.drop-area.active {
+    border-color: #000;
+}
+
+#outputImage, #generatedImage {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+#downloadBtn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
